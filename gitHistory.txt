@@ -28,3 +28,6 @@ git push
 
 # since you can't specify the pem file in the command line,
 # use ssh-agent bash and related commands
+
+# This might be useful
+git config --global core.editor "emacsclient"
