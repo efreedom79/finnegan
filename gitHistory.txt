@@ -1,0 +1,30 @@
+History
+=======
+which git
+mkdir finnegan
+cd finnegan/
+git init
+git status
+git add .
+git commit -m 'First Commit"
+git config --global user.email "robert.brown@pobox.com"
+git config --global user.name "Bob Brown"
+git diff
+git diff HEAD
+git remote
+git clone https://github.com/efreedom79/aws-tools.git
+git remote
+git remote show origin
+
+# First added repository from github
+git remote add origin https://github.com/efreedom79/finnegan.git
+
+#Asks for password
+git push origin master
+git remote set-url origin git@github.com:efreedom79/finnegan.git
+
+# if key is correct doesn't ask for password
+git push
+
+# since you can't specify the pem file in the command line,
+# use ssh-agent bash and related commands
