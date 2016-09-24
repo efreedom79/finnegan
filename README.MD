@@ -1,3 +1,3 @@
-Install Rub
+Install Ruby
 
 MD means markdown
